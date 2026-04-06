@@ -4,7 +4,7 @@ This is the official GitHub repository for COMP_SCI-361's TonTru team.
 **Project Title: AI-Based Phishing Detection and Explanation**
 
 Team Member Names:
-- Muhammad Chaudry
+- Muhammad Chaudhry
 - Joshua Webber
   
 Chosen Project Domain:  AI for Cyber Defense
