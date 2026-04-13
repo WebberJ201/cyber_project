@@ -17,9 +17,10 @@ Project Description: The project will focus on the possible implementation of LL
 -   [placeholder]
 
   Weekly Progress Summary
-- [placeholder]
-- [placeholder]
-- [placeholder]
+- Week One: Baseline Analysis & Threat Modeling
+-   Worked on & completed Checkpoint 2, which outlines our project's baseline environment and initial threat analysis.
+- [Placeholder for Week 2 / Checkpoint 3]
+- [Placeholder for Week 3 / Checkpoint 4]
 
   Final Outcome Summary
   - [placeholder]
