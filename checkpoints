@@ -1,1 +1,20 @@
+**Checkpoint 2: Threat Model & Baseline Assessment**
 
+The week of April 4th - 12th was used to work and complete *Checkpoint 2 - Baseline Analysis and Threat Modeling*. Based on the required deliverables, the product was a document outlining the initial baseline environment for our project. A quick summary of each section is given below.
+
+1. System & Workflow Documentation
+-     Describes the general idea behind our AI-based phising detection system, such as what it is and how it works via a detailed/visualized pipeline.
+2. Trust Boundaries & Data Flow
+-     A quick outline of trust boundaries involving our system, noting the Internet, our intake boundary, internal referencing, and output.
+3. Expanded Asset Inventory
+-     An updated asset list from our submitted Project Charter, detailing the criticality of each item.
+4. Threat Model
+-     A visual representation of each threat we believe may impact our model & connected systems, following related attack surfaces and case scenarios.
+5. Baseline Evidence
+-     Outlines our initial system environment, which includes an architecture baseline, test cases for our AI model, and starting policies & configurations.
+6. Initial Risk Matrix
+-     Contains a risk matrix for our AI model, with some mentions being system evasions, insider threats, URL bypasses, and more.
+7. Planned Control List
+-     A list of control items that directly map to each risk and what mitigations they bring.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
