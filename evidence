@@ -1,1 +1,13 @@
+Information pulled from Checkpoint 2 regarding a baseline architecture description, initial test cases, and policy review notes.
 
+5a. System architecture baseline
+-     At baseline, the pipeline consists of four sequential Python modules with no authentication between them, no input sanitization on the email intake endpoint, and no rate limiting on model inference. Configuration files including detection thresholds and whitelist rules are stored in plaintext in the repo. There is no logging of analyst feedback actions.
+
+5c. Baseline policy and configuration notes
+-     No input validation on raw email intake malformed MIME headers pass through unchecked
+-     Detection threshold hardcoded at 0.65 with no documented rationale for this value
+-     Whitelist stored in a plaintext CSV file with no access controls. Any team member can edit
+-     Model inference endpoint has no rate limiting vulnerable to systematic probing
+-     No logging of analyst feedback decisions feedback loop is unauditable at baseline
+-     Training dataset sourced from public corpora (CEAS 2008, Enron)  known to be partially outdated
+-------------------------------------------------------------------------------------------------------------------------
