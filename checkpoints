@@ -18,3 +18,27 @@ The week of April 4th - 12th was used to work and complete *Checkpoint 2 - Basel
 -     A list of control items that directly map to each risk and what mitigations they bring.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Checkpoint 3: Defensive Controls and Validation Progress
+
+The week of April 13th - 19th was used to work and complete *Checkpoint 3 - Defensive Controls and Validation*. Based on the required deliverables, the product was an updated repository and supporting documentation demonstrating implemented security controls and validation of improvements. A quick summary of each section is given below.
+
+1. Control Implementation
+-     Describes the defensive measures added to our AI-based phishing detection system, including input validation, URL filtering, rate limiting, and logging mechanisms.
+
+2. Control Selection Rationale
+-     Explains why each control was chosen and how it directly maps to previously identified risks such as homograph attacks, model probing, and input-based attacks.
+
+3. Evidence of Defensive Work
+-     Provides examples of implemented logic and system updates, including filtering logic, validation workflows, and logging design integrated into the pipeline.
+
+4. Validation & Testing
+-     Demonstrates system testing through before-and-after comparisons using baseline test cases, highlighting improvements in detection and system behavior.
+
+5. Observed Improvements
+-     Summarizes measurable improvements in system security, including reduced false negatives, improved detection of spoofed URLs, and increased traceability.
+
+6. Updated Risk Register
+-     Revises previously identified risks based on implemented controls, showing reduced risk levels and identifying any remaining vulnerabilities.
+
+7. Final Report Preparation
+-     Provides a structured outline for the final report, including system design, threat model, defensive controls, validation results, and overall conclusions.
