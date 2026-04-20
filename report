@@ -1,1 +1,28 @@
+Checkpoint 3
+
+# Control Implementation Summary
+
+1. Input Validation
+Purpose: Prevent malformed or malicious email input.
+Risk Addressed: Intake boundary attacks, header injection.
+Reason: Baseline showed no input sanitization.
+
+2. URL Checker
+Purpose: Detect suspicious or spoofed domains.
+Risk Addressed: Homograph attacks, phishing links (TC-05).
+Reason: Baseline failed to detect Unicode/domain spoofing.
+
+3. Rate Limiting
+Purpose: Prevent attackers from probing the model repeatedly.
+Risk Addressed: Model threshold probing attacks.
+Reason: Baseline had no rate limiting.
+
+4. Logging
+Purpose: Track system decisions and analyst actions.
+Risk Addressed: Feedback loop corruption, lack of traceability.
+Reason: Baseline had no logging system.
+
+# Updated Risk Register
+
+The updated risk register shows improvements across all areas after adding security controls. Homograph attacks and model probing dropped from high to medium due to URL checking and rate limiting. Input injection and lack of logging improved from high to low with input validation and logging. Attachment bypass is still a concern, reduced only from high to medium and not fully resolved.
 
