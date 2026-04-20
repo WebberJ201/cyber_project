@@ -10,7 +10,7 @@ def allow_request():
     requests = [r for r in requests if current_time - r < 60]
 
     if len(requests) > 10:
-        return False  # too many requests (prevents probing)
+        return False
 
     requests.append(current_time)
     return True
