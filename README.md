@@ -6,6 +6,8 @@ This is the official GitHub repository for COMP_SCI-361's TonTru team.
 Team Member Names:
 - Muhammad Chaudhry
 - Joshua Webber
+- Yaseen Allan
+- Sufyan Imran
   
 Chosen Project Domain:  AI for Cyber Defense
 
