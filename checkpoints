@@ -18,3 +18,20 @@ The week of April 4th - 12th was used to work and complete *Checkpoint 2 - Basel
 -     A list of control items that directly map to each risk and what mitigations they bring.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Checkpoint 3: Defensive Controls & Validation
+
+The week of April 12th - 19th was used to work on and complete Checkpoint 3 - Defensive Controls, Validation, and Risk Updates. Based on the required deliverables, the product was an updated system showing implemented security controls, testing results, and improved risk analysis. A quick summary of each section is given below.
+
+1. Control Implementation Summary
+-     Describes the defensive controls added to the system, such as input sanitization, homograph detection, rate limiting, access control, logging, and secure prompts.
+2. Evidence of Defensive Work
+     Explains how each control was applied to fix issues identified in Checkpoint 2, including preventing malformed input, detecting spoofed domains, and blocking probing attacks.
+3. Validation and Testing
+     Shows before and after results using test cases, with system performance improving from 60% to 70% and key issues like homograph attacks being fixed.
+4. Updated Risk Register
+     Re-evaluates risks from Checkpoint 2, showing which risks were reduced, resolved, or still remain after implementing controls.
+5. Remaining Gaps
+     Identifies unresolved issues such as spear phishing detection, attachment scanning, and prompt injection handling.
+6. Final Report Outline
+     Provides the structure for the final report, including system design, threat model, controls, testing, and conclusions.
