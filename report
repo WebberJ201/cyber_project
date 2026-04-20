@@ -1,30 +1,30 @@
 Checkpoint 3
 
-# Control Implementation Summary
+Control Implementation Summary
 
-- **Input sanitization** – blocks malformed input and header injection (Done)
-- **Homograph URL decoder** – detects fake Unicode domains, fixed TC-05 (Done)
-- **Rate limiting** – prevents model probing attacks (Done)
-- **Access control** – restricts config edits to prevent tampering (Done)
-- **Audit logging** – tracks analyst actions for accountability (Done)
-- **Threshold tuning** – reduced false positives (TC-06) (Done)
-- **Secure prompts** – prevents prompt injection (Done)
+- Input sanitization – blocks malformed input and header injection (Done)
+- Homograph URL decoder – detects fake Unicode domains, fixed TC-05 (Done)
+- Rate limiting – prevents model probing attacks (Done)
+- Access control – restricts config edits to prevent tampering (Done)
+- Audit logging – tracks analyst actions for accountability (Done)
+- Threshold tuning – reduced false positives (TC-06) (Done)
+- Secure prompts – prevents prompt injection (Done)
 
-## In Progress / Planned
-- **Spear phishing detection (NER)** – still missing (TC-03)
-- **Attachment scanning** – not implemented (TC-07)
-- **Model revalidation** – planned for future updates
+In Progress / Planned
+- Spear phishing detection (NER) – still missing (TC-03)
+- Attachment scanning – not implemented (TC-07)
+- Model revalidation – planned for future updates
 
-# Updated Risk Register
+Updated Risk Register
 
-- **Adversarial evasion** – reduced (20 → 15), still in progress  
-- **Spear phishing** – slightly reduced (16 → 12), still failing (TC-03)  
-- **Model probing** – reduced (16 → 8), blocked by rate limiting (TC-08)  
-- **Homograph attack** – resolved (12 → 4), fixed (TC-05)  
-- **Attachment bypass** – still high (12 → 10), not yet implemented (TC-07)  
-- **Training data poisoning** – reduced (10 → 6), now monitored with logging  
-- **False positives** – resolved (12 → 4), improved with threshold tuning  
-- **Whitelist tampering** – resolved (8 → 3), blocked with access control (TC-10)  
-- **Insider manipulation** – reduced (8 → 4), mitigated with audit logs  
-- **Prompt injection** – new risk, now mitigated (4), fixed with secure prompts  
-- **Supply chain risk** – unchanged (5 → 5), no controls yet
+- Adversarial evasion – reduced (20 → 15), still in progress  
+- Spear phishing – slightly reduced (16 → 12), still failing (TC-03)  
+- Model probing – reduced (16 → 8), blocked by rate limiting (TC-08)  
+- Homograph attack – resolved (12 → 4), fixed (TC-05)  
+- Attachment bypass – still high (12 → 10), not yet implemented (TC-07)  
+- Training data poisoning – reduced (10 → 6), now monitored with logging  
+- False positives – resolved (12 → 4), improved with threshold tuning  
+- Whitelist tampering – resolved (8 → 3), blocked with access control (TC-10)  
+- Insider manipulation – reduced (8 → 4), mitigated with audit logs  
+- Prompt injection – new risk, now mitigated (4), fixed with secure prompts  
+- Supply chain risk – unchanged (5 → 5), no controls yet
