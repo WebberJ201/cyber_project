@@ -14,7 +14,7 @@ Chosen Project Domain:  AI for Cyber Defense
 Project Description: The project will focus on the possible implementation of LLM-Based technology in the Cybersecurity industry, with the main focus on phishing attacks.
 
 - **Tools Used** (*to be filled as the project goes on*)
--   [placeholder]
+-   VS Code
 -   [placeholder]
 -   [placeholder]
 
