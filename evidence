@@ -11,7 +11,7 @@ Information pulled from Checkpoint 2 regarding a baseline architecture descripti
 -     No logging of analyst feedback decisions feedback loop is unauditable at baseline
 -     Training dataset sourced from public corpora (CEAS 2008, Enron)  known to be partially outdated
 -------------------------------------------------------------------------------------------------------------------------
-Checkpoint 3
+Checkpoint 3 - Validation Evidence
 
 - Test pass rate improved from **60% to 70%**
 - Homograph attack (TC-05) fixed using punycode decoder
