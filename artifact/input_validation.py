@@ -7,7 +7,7 @@ def validate_email_input(email):
     if "<script>" in email.lower():
         return False
     
-    # Block extremely large inputs (possible abuse)
+    # Block extremely large inputs
     if len(email) > 10000:
         return False
     
