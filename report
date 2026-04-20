@@ -17,14 +17,14 @@ In Progress / Planned
 
 Updated Risk Register
 
-- Adversarial evasion – reduced (20 → 15), still in progress  
-- Spear phishing – slightly reduced (16 → 12), still failing (TC-03)  
-- Model probing – reduced (16 → 8), blocked by rate limiting (TC-08)  
-- Homograph attack – resolved (12 → 4), fixed (TC-05)  
-- Attachment bypass – still high (12 → 10), not yet implemented (TC-07)  
-- Training data poisoning – reduced (10 → 6), now monitored with logging  
-- False positives – resolved (12 → 4), improved with threshold tuning  
-- Whitelist tampering – resolved (8 → 3), blocked with access control (TC-10)  
-- Insider manipulation – reduced (8 → 4), mitigated with audit logs  
+- Adversarial evasion – reduced (20 to 15), still in progress  
+- Spear phishing – slightly reduced (16 to 12), still failing (TC-03)  
+- Model probing – reduced (16 to 8), blocked by rate limiting (TC-08)  
+- Homograph attack – resolved (12 to 4), fixed (TC-05)  
+- Attachment bypass – still high (12 to 10), not yet implemented (TC-07)  
+- Training data poisoning – reduced (10 to 6), now monitored with logging  
+- False positives – resolved (12 to 4), improved with threshold tuning  
+- Whitelist tampering – resolved (8 to 3), blocked with access control (TC-10)  
+- Insider manipulation – reduced (8 to 4), mitigated with audit logs  
 - Prompt injection – new risk, now mitigated (4), fixed with secure prompts  
-- Supply chain risk – unchanged (5 → 5), no controls yet
+- Supply chain risk – unchanged (5 to 5), no controls yet
