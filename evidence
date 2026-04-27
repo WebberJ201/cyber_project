@@ -27,3 +27,21 @@ Remaining Issues
 
 Conclusion
 - Defensive controls improved overall security and reduced key risks compared to baseline
+------------------------------------------------------------------------------------------------------------------------
+Checkpoint 4 - Validation Evidence
+
+- Final system performance: **70% pass rate (improved from 60% baseline)**
+- Homograph attack (TC-05) successfully detected after implementing punycode decoding
+- Rate limiting (TC-08) continues to block probing attempts effectively
+- Access control (TC-10) prevents unauthorized configuration changes
+- Threshold calibration maintains accuracy and prevents false positives (TC-06)
+- Overall system shows consistent improvement over baseline testing
+
+Remaining Issues
+- Spear phishing detection (TC-03) still failing due to lack of personalization features
+- Digit-substitution domain attacks (TC-04) not yet detected
+- Prompt injection detection (TC-09) still needs improvement
+
+Conclusion
+- The final system demonstrates improved detection performance and stronger defensive controls
+- Remaining risks are identified and documented, with recommendations provided for future improvement
