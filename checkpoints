@@ -35,3 +35,24 @@ The week of April 12th - 19th was used to work on and complete Checkpoint 3 - De
 -     Identifies unresolved issues such as spear phishing detection, attachment scanning, and prompt injection handling.
 6. Final Report Outline
 -     Provides the structure for the final report, including system design, threat model, controls, testing, and conclusions.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Checkpoint 4: Final Validation, Results, and Recommendations
+
+The week of April 19th - 26th was used to work on and complete Checkpoint 4 - Final Validation, Results, and Recommendations. Based on the required deliverables, the product was a fully completed system with validated performance, documented results, and final risk analysis. A quick summary of each section is given below.
+
+1. Final System Overview
+-     Describes the completed phishing detection system, including its pipeline stages (input, feature extraction, scoring, explainability, and output) and implemented security controls.
+2. Validation Process
+     Explains the testing approach using a 10-case test suite, comparing baseline performance to the system with controls enabled.
+3. Results and Performance Analysis
+     Shows final system performance, with improvement from 60% to 70%, including successful detection of homograph attacks and maintained accuracy on legitimate emails.
+4. Unresolved Issues
+     Identifies remaining gaps such as spear phishing detection, digit-substitution domains, and prompt injection scoring that were not fully resolved.
+5. Recommendations
+     Provides suggested improvements, including adding named entity recognition, domain similarity checks, expanded test cases, and attachment scanning.
+6. Residual Risk Discussion
+     Analyzes remaining risks after controls were implemented, explaining how some risks were reduced but still exist and are mitigated through defense-in-depth strategies.
+7. Evidence Appendix
+     Includes full testing evidence, feature extraction details, audit log schema, and references to datasets used in the project.
