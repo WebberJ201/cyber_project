@@ -28,9 +28,9 @@ Remaining Issues
 Conclusion
 - Defensive controls improved overall security and reduced key risks compared to baseline
 ------------------------------------------------------------------------------------------------------------------------
-Checkpoint 4 - Validation Evidence
+Checkpoint 4 - Final Results and Evidence
 
-- Final system performance: **70% pass rate (improved from 60% baseline)**
+- Final system performance: 70% pass rate (improved from 60% baseline)
 - Homograph attack (TC-05) successfully detected after implementing punycode decoding
 - Rate limiting (TC-08) continues to block probing attempts effectively
 - Access control (TC-10) prevents unauthorized configuration changes
